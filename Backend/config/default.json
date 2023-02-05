@@ -1,0 +1,5 @@
+
+{
+    "mongoURI":
+      "mongodb+srv://Archana:Archana@cluster0.d5wvbdh.mongodb.net/Employee_data?retryWrites=true&w=majority"
+  }
