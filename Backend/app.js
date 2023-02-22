@@ -111,7 +111,7 @@ app.post("/api/employeelist", async (req, res) => {
 });
 
 //delete a employee data from db by using api '/api/employeelist/:id'
-app.delete("/api/employeelist/:id", async (req, res) => {
+app.delete("/api/employeelist/:id", auth, async (req, res) => {
   try {
     var id = req.params.id;
     var data = req.body;

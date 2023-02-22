@@ -25,6 +25,8 @@ const Signin = () => {
 
         sessionStorage.setItem("userToken", token);
         sessionStorage.setItem("userId", userId);
+        history.push('/protected');
+
 
         if (useremail == "admin@gmail.com") {
           navigate("/Read");

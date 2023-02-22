@@ -25,7 +25,7 @@ const Read = () => {
     axios.delete(`http://localhost:3001/api/employeelist/${_id}`).then(() => {
       getData();
     });
-  };
+  };  
   const getData = () => {
     axios.get("http://localhost:3001/api/employeelist").then((getData) => {
       setAPIData(getData.data);
